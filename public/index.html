@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/siwalikm/quick-form-css@2.2.2/qfc-dark.css">
+  <title>Entrega Desafio</title>
+</head>
+<body>
+  <h1 style="text-align: center; color:bisque">Aspectos incluidos en el entregable</h1>
+  <ul style="margin: 25px;"><b style="color:#fafafa; text-decoration-line: underline;">1. El router base '/api/productos' implementa cuatro funcionalidades:</b>
+    <li style="color:antiquewhite; margin: 10px 0;">GET: '/:id?' - Me permite listar todos los productos disponibles ó un producto por su id (disponible para usuarios y administradores)</li>
+    <li style="color:antiquewhite; margin: 10px 0;">POST: '/' - Para incorporar productos al listado (disponible para administradores)</li>
+    <li style="color:antiquewhite; margin: 10px 0;">PUT: '/:id' - Actualiza un producto por su id (disponible para administradores)</li>
+    <li style="color:antiquewhite; margin: 10px 0;">DELETE: '/:id' - Borra un producto por su id (disponible para administradores)</li>
+  </ul>
+  <ul style="margin: 25px;"><b style="color:#fafafa; text-decoration-line: underline; ">2. El router base '/api/carrito' implementará tres rutas disponibles para usuarios y administradores:</b>
+    <li style="color:antiquewhite; margin: 10px 0;">POST: '/' - Crea un carrito y devuelve su id.</li>
+    <li style="color:antiquewhite; margin: 10px 0;">DELETE: '/:id' - Vacía un carrito y lo elimina.</li>
+    <li style="color:antiquewhite; margin: 10px 0;">GET: '/:id/productos' - Me permite listar todos los productos guardados en el carrito</li>
+    <li style="color:antiquewhite; margin: 10px 0;">POST: '/:id/productos' - Para incorporar productos al carrito por su id de producto</li>
+    <li style="color:antiquewhite; margin: 10px 0;">DELETE: '/:id/productos/:id_prod' - Eliminar un producto del carrito por su id de carrito y de producto</li>
+  </ul>
+</body>
+</html>
